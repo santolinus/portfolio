@@ -1,0 +1,38 @@
+.header{
+  text-align: center;
+  height: 550px;
+  width: 100%;
+  background: url(pics/izzo/quote.jpg.jpg);
+  background-size: cover;
+  color: #ffffff;
+  font-family: "Courier New", Courier, monospace;
+  font-size: 20px;
+
+}
+.contact
+{
+	position: relative;
+	z-index: 9;
+}
+
+
+.contact span
+{
+	display: none;
+}
+.contact:hover
+{
+	z-index: 10;
+}
+
+.contact:hover span
+{
+display: block;
+padding: 10px;
+background-color: 100;
+}
+
+/*.btn
+{
+	float: left;
+}*/
